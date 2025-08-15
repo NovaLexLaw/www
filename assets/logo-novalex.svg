@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60" role="img" aria-label="NovaLex logo">
+  <rect width="240" height="60" fill="none"/>
+  <g fill="#0B2C52">
+    <text x="0" y="42" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="0.5">Nova</text>
+    <text x="135" y="42" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="0.5" fill="#1ABC9C">Lex</text>
+  </g>
+</svg>
