@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.novalex.example/index.html</loc></url>
-  <url><loc>https://www.novalex.example/services.html</loc></url>
-  <url><loc>https://www.novalex.example/contact.html</loc></url>
+  <url><loc>https://www.novalex.co.za/index.html</loc></url>
+  <url><loc>https://www.novalex.co.za/about.html</loc></url>
+  <url><loc>https://www.novalex.co.za/products.html</loc></url>
+  <url><loc>https://www.novalex.co.za/contact.html</loc></url>
 </urlset>

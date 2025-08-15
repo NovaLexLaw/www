@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact • NovaLex</title>
+<title>Products • NovaLex</title>
 <meta name="description" content="NovaLex provides responsible, compliant loan facilitation and credit support for individuals and SMEs in South Africa. We are not a law firm and do not provide legal advice."><meta name="theme-color" content="#0B2C52">
 <link rel="icon" href="assets/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,27 +15,35 @@
 </div></header>
 
 <main class="section"><div class="container">
-  <h1>Contact Us</h1>
-  <p class="lead">Start your application or ask a question. We aim to respond within one business day.</p>
+  <h1>Loan Products & Facilitation</h1>
+  <p class="lead">Choose a product below and use the calculator to estimate repayments. Final terms depend on your affordability assessment and credit evaluation.</p>
   <div class="row-2">
-    <div class="card">
-      <form id="contact-form" action="https://formspree.io/f/your-id" method="POST">
-        <label>Full Name <input name="name" required></label>
-        <label>Email <input type="email" name="email" required></label>
-        <label>Phone <input type="tel" name="phone" required></label>
-        <label>Interested in
-          <select name="product"><option>Personal Loan</option><option>SME Working Capital</option><option>Loan Facilitation</option></select>
-        </label>
-        <label>Message <textarea name="message" rows="6" placeholder="Tell us about your requirement" required></textarea></label>
-        <button class="btn primary" type="submit">Send</button>
-      </form>
+    <div class="product">
+      <h3>Personal Loan</h3><p class="meta">R2,000–R50,000 • 3–24 months</p>
+      <ul><li>Fixed monthly service fee & disclosed initiation fee</li><li>Early settlement allowed</li><li>Illustrative APR shown in calculator</li></ul>
+      <a class="btn alt" href="contact.html">Apply / Enquire</a>
     </div>
-    <div class="card" id="complaints">
-      <h3>Company Details</h3>
-      <p><strong>Email:</strong> <a href="mailto:hello@novalex.co.za">hello@novalex.co.za</a><br><strong>Phone:</strong> <a href="tel:+27100000000">+27 (0)10 000 0000</a><br><strong>Location:</strong> Johannesburg, South Africa (remote-first)</p>
-      <div class="card" style="border-left:6px solid #1ABC9C;background:#eefaf7"><strong>Complaints:</strong> Please email <a href="mailto:hello@novalex.co.za">hello@novalex.co.za</a> with the subject "Complaint". We will acknowledge within 48 hours and aim to resolve within 10 business days.</div>
+    <div class="product">
+      <h3>SME Working Capital</h3><p class="meta">R20,000–R250,000 • up to 12 months</p>
+      <ul><li>Turnover/bank-statement based assessment</li><li>Fast decisioning and e-contracts</li><li>Invoice or card-settlement options</li></ul>
+      <a class="btn alt" href="contact.html">Apply / Enquire</a>
     </div>
   </div>
+  <h2 style="margin-top:34px">Loan Calculator (illustrative)</h2>
+  <div class="card calc">
+    <label>Amount (ZAR) <input id="amt" type="number" value="10000" min="500" step="100"></label>
+    <label>Term (months) <input id="term" type="number" value="12" min="1" max="72"></label>
+    <label>APR (%) <input id="apr" type="number" value="24" min="0" max="60" step="0.1"></label>
+    <div id="out" class="out"></div>
+    <p class="meta">For illustration only. Final pricing includes permitted initiation & monthly service fees under the NCA and may differ from this estimate.</p>
+  </div>
+  <h2 id="disclosures" style="margin-top:34px">Disclosures & Key Facts</h2>
+  <div class="card"><ul>
+    <li>We conduct affordability assessments before granting any credit.</li>
+    <li>You receive a pre-agreement statement & quotation before signing.</li>
+    <li>Early settlement is allowed; unpaid instalments may incur default costs as permitted by the NCA.</li>
+    <li>We may facilitate loans with accredited partners; in such cases, the lender issues the credit and holds the agreement.</li>
+  </ul></div>
 </div></main>
 
 <footer class="footer"><div class="container">
